@@ -1,0 +1,74 @@
+body{
+display: flex;
+    justify-content: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+    height: 800px;
+    width: 1300px;
+}
+
+.header{
+    height: 130px;
+    background: silver;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+
+}
+
+.Rwindow{
+    width: 150px;
+    height: 60px;
+    background: #223b4d;
+    border-radius: 10px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.fa-solid {
+   color: #223b4d;
+    font-size: 40px;
+    display: block;
+    width:80px;
+}
+
+.icons{
+position: absolute;
+    top: 53px;
+    right: 100px;
+
+
+}
+
+.main{
+    height: 700px;
+    background: #917cb7;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.size{
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: -100px;
+}
+
+.box{
+    height: 200px;
+    width:200px;
+    background: #223b4d;
+    border-radius: 15px;
+}
+
+
+.bottom{
+    height: 200px;
+    background: silver;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

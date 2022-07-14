@@ -1,0 +1,91 @@
+body{
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+.main{
+  height:900px;
+  width: 1500px;
+  border:2px solid dimgrey ;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.card{
+  height: 500px;
+  width: 400px;
+  border: 1.5px solid dimgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+}
+.icon{
+  width: 120px;
+  height: 120px;
+  background: white;
+  border: 2px solid dimgrey;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 138px ;
+  top:-70px;
+
+}
+.fa-solid{
+  font-size: 35px;
+  color: #f3d776;
+
+}
+
+.card > .title {
+  /*background: #497bc9;*/
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 30px;
+  font-weight: revert;
+  font-family: "American Typewriter";
+  color: #4b4b4b;
+
+}
+.card > .title >  p{
+  margin: 0px;
+}
+
+.card > .decs{
+  /*background: #497bc9;*/
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+ .decs >  p{
+  margin: 0px;
+  text-align: center;
+  width: 70%;
+  font-size: 20px;
+   font-weight: lighter;
+   color: dimgrey;
+}
+
+.card > .button{
+  /*background: #497bc9;*/
+  height: 25%;
+  display: flex;
+  justify-content: center;
+
+}
+.button > button{
+height: 50%;
+width: 50%;
+  font-size: 20px;
+  color: dimgrey;
+  border: 2px solid;
+}
