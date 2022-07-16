@@ -88,4 +88,16 @@ width: 50%;
   font-size: 20px;
   color: dimgrey;
   border: 2px solid;
+  border-radius: 5px;
+}
+.button a{
+  text-decoration: none;
+}
+
+.button > button:hover{
+  background: #f8e3af;
+  border-radius: 10px;
+  transition: 500ms;
+  transition-delay: revert;
+  cursor: pointer;
 }
